@@ -13,13 +13,16 @@
         android:theme="@style/Theme.VITBhopal"
         tools:targetApi="31">
         <activity
+            android:name=".hostel_selection"
+            android:exported="false" />
+        <activity
             android:name=".loading_screen"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
             android:exported="false" />
         <activity
-            android:name=".hostel_selection"
+            android:name=".dev_profile"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
