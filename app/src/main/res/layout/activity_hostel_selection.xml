@@ -53,6 +53,7 @@
         android:text="It will help us finding you the right mess menu."
         android:textColor="#DF000000"
         android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/lottieAnimationView2"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView14" />
 
