@@ -24,6 +24,7 @@
             android:layout_height="match_parent">
 
             <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/profile"
                 android:layout_width="30dp"
                 android:layout_height="30dp"
                 app:layout_constraintBottom_toBottomOf="parent"
