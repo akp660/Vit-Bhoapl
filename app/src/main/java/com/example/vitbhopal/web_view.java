@@ -2,11 +2,13 @@ package com.example.vitbhopal;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.graphics.Bitmap;
 import android.os.Bundle;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
+import android.widget.ImageView;
 
 public class web_view extends AppCompatActivity {
     private WebView mywebView;
@@ -15,6 +17,9 @@ public class web_view extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_web_view);
+
+        ImageView imageView = findViewById(R.id.home);
+        imageView.setOnClickListener(view -> home());
 
         mywebView=(WebView) findViewById(R.id.webview);
         mywebView.setWebViewClient(new WebViewClient());
@@ -44,5 +49,10 @@ public class web_view extends AppCompatActivity {
         else{
             super.onBackPressed();
         }
+    }
+
+    public void home(){
+        Intent intent = new Intent(web_view.this,MainActivity.class);
+        startActivity(intent);
     }
 }

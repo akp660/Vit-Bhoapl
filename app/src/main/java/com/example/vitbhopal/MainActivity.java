@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void vtop(){
-        Intent intent = new Intent(MainActivity.this, hostel_selection.class);
+        Intent intent = new Intent(MainActivity.this, web_view.class);
         startActivity(intent);
     }
 
