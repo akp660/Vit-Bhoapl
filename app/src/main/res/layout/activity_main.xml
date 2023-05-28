@@ -79,7 +79,7 @@
         app:lottie_rawRes="@raw/book" />
 
     <com.airbnb.lottie.LottieAnimationView
-        android:id="@+id/lottieAnimationView4"
+        android:id="@+id/lottieAnimationView3"
         android:layout_width="200dp"
         android:layout_height="200dp"
         android:layout_marginStart="24dp"
@@ -96,9 +96,9 @@
         android:fontFamily="@font/capriola"
         android:text="Foody"
         android:textColor="#232323"
-        app:layout_constraintEnd_toEndOf="@+id/lottieAnimationView4"
-        app:layout_constraintStart_toStartOf="@+id/lottieAnimationView4"
-        app:layout_constraintTop_toBottomOf="@+id/lottieAnimationView4" />
+        app:layout_constraintEnd_toEndOf="@+id/lottieAnimationView3"
+        app:layout_constraintStart_toStartOf="@+id/lottieAnimationView3"
+        app:layout_constraintTop_toBottomOf="@+id/lottieAnimationView3" />
 
     <TextView
         android:layout_width="wrap_content"

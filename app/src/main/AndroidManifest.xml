@@ -16,13 +16,13 @@
             android:name=".hostel_selection"
             android:exported="false" />
         <activity
-            android:name=".loading_screen"
+            android:name=".dev_profile"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
             android:exported="false" />
         <activity
-            android:name=".dev_profile"
+            android:name=".loading_screen"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
