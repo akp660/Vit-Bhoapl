@@ -13,6 +13,9 @@
         android:theme="@style/Theme.VITBhopal"
         tools:targetApi="31">
         <activity
+            android:name=".web_view"
+            android:exported="false" />
+        <activity
             android:name=".hostel_selection"
             android:exported="false" />
         <activity
