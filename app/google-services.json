@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "987839705038",
+    "project_id": "vit-bhopal-b8a26",
+    "storage_bucket": "vit-bhopal-b8a26.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:987839705038:android:fdb07f93b56c926a64459f",
+        "android_client_info": {
+          "package_name": "com.example.vitbhopal"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDsG9SoMbPCSmF6Kjawk8DylZz85WjmjLw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
