@@ -13,6 +13,7 @@ public class dev_profile extends AppCompatActivity {
     ImageView gmail;
     ImageView github;
     ImageView linkedin;
+    ImageView profile;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,6 +26,7 @@ public class dev_profile extends AppCompatActivity {
         gmail = findViewById(R.id.gmail);
         github = findViewById(R.id.github);
         linkedin = findViewById(R.id.linkedin);
+        profile = findViewById(R.id.profile);
 
 
         gmail.setOnClickListener(new View.OnClickListener(){
@@ -62,6 +64,17 @@ public class dev_profile extends AppCompatActivity {
             }
         });
 
+        profile.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view){
+                gotoUrl("https://akp660.github.io/My-Portfolio/");
+            }
+
+            private void gotoUrl(String s) {
+                Uri uri = Uri.parse(s);
+                startActivity(new Intent(Intent.ACTION_VIEW,uri));
+            }
+        });
 
     }
 
