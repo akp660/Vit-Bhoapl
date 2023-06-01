@@ -41,11 +41,24 @@ public class dev_profile extends AppCompatActivity {
         github.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                gotoUrl("https://vtop.vitbhopal.ac.in/vtop/initialProcess");
+                gotoUrl("https://github.com/akp660");
             }
 
             private void gotoUrl(String s) {
-                gotoUrl("https://vtop.vitbhopal.ac.in/vtop/initialProcess");
+                Uri uri = Uri.parse(s);
+                startActivity(new Intent(Intent.ACTION_VIEW,uri));
+            }
+        });
+
+        linkedin.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view){
+                gotoUrl("https://www.linkedin.com/in/devops01/");
+            }
+
+            private void gotoUrl(String s) {
+                Uri uri = Uri.parse(s);
+                startActivity(new Intent(Intent.ACTION_VIEW,uri));
             }
         });
 
