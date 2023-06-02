@@ -15,7 +15,7 @@
         android:theme="@style/Theme.VITBhopal"
         tools:targetApi="31">
         <activity
-            android:name=".loading_screen"
+            android:name=".login"
             android:exported="false" />
         <activity
             android:name=".mess_menu"
@@ -33,7 +33,7 @@
             android:name=".MainActivity"
             android:exported="false" />
         <activity
-            android:name=".login"
+            android:name=".loading_screen"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
