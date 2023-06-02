@@ -99,6 +99,7 @@
                     android:layout_marginTop="25dp"
                     android:fontFamily="@font/andika"
                     android:text="Abhijeet Kumar Pandey"
+                    android:textColor="#000000"
                     android:textSize="20sp"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
@@ -109,6 +110,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="15dp"
                     android:text="19 | Dhanbad, India"
+                    android:textColor="#000000"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/textView8" />
 
