@@ -32,7 +32,7 @@ public class dev_profile extends AppCompatActivity {
         gmail.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view){
-                gotoUrl("https://vtop.vitbhopal.ac.in/vtop/initialProcess");
+                gotoUrl("gmail/abhijeetpandeydhn@gmail.com");
             }
             private void gotoUrl(String s) {
                 Uri uri = Uri.parse(s);
