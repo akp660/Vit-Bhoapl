@@ -15,7 +15,7 @@ public class loading_screen extends AppCompatActivity {
 
         Intent iHome = new Intent(loading_screen.this,MainActivity.class);
 
-        new Handler().postDelayed(() -> startActivity(iHome),3000);
+        new Handler().postDelayed(() -> startActivity(iHome),2000);
 
     }
 }
