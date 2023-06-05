@@ -15,11 +15,19 @@ public class hostel_selection extends AppCompatActivity {
         setContentView(R.layout.activity_hostel_selection);
 
         LottieAnimationView lottieAnimationView = findViewById(R.id.lottieAnimationView3);
-        lottieAnimationView.setOnClickListener(view -> vtop());
+        lottieAnimationView.setOnClickListener(view -> girl());
+
+        LottieAnimationView lottieAnimationView2 = findViewById(R.id.lottieAnimationView2);
+        lottieAnimationView2.setOnClickListener(view -> boy());
 
     }
 
-    public void vtop(){
+    public void girl(){
+        Intent intent = new Intent(hostel_selection.this, mess_menu.class);
+        startActivity(intent);
+    }
+
+    public void boy(){
         Intent intent = new Intent(hostel_selection.this, mess_menu.class);
         startActivity(intent);
     }
