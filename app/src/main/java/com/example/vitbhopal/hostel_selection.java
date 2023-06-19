@@ -23,7 +23,7 @@ public class hostel_selection extends AppCompatActivity {
     }
 
     public void girl(){
-        Intent intent = new Intent(hostel_selection.this, mess_menu.class);
+        Intent intent = new Intent(hostel_selection.this, mess_menu_femail.class);
         startActivity(intent);
     }
 
