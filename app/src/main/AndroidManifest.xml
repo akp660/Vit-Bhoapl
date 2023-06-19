@@ -15,6 +15,9 @@
         android:theme="@style/Theme.VITBhopal"
         tools:targetApi="31">
         <activity
+            android:name=".mess_menu_femail"
+            android:exported="false" />
+        <activity
             android:name=".login"
             android:exported="false" />
         <activity
