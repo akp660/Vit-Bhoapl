@@ -55,7 +55,8 @@ public class mess_menu extends AppCompatActivity {
         arrDays.add("Sunday");
         arrDays.add("Under Belly");
 
-        ArrayAdapter<String> spinnerAdapter = new ArrayAdapter<>(getApplicationContext(), android.R.layout.simple_spinner_dropdown_item, arrDays);
+        ArrayAdapter<String> spinnerAdapter = new ArrayAdapter<>(getApplicationContext(), R.layout.dpinner_view, arrDays);
+        spinnerAdapter.setDropDownViewResource(R.layout.dropdown_view);
         spinner.setAdapter(spinnerAdapter);
 
         spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
