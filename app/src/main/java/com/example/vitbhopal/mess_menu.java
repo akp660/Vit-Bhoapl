@@ -2,15 +2,12 @@ package com.example.vitbhopal;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.content.Intent;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.view.animation.Animation;
 import android.view.animation.RotateAnimation;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
-import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.Spinner;
 import android.widget.Toast;
@@ -55,7 +52,7 @@ public class mess_menu extends AppCompatActivity {
         arrDays.add("Sunday");
         arrDays.add("Under Belly");
 
-        ArrayAdapter<String> spinnerAdapter = new ArrayAdapter<>(getApplicationContext(), R.layout.dpinner_view, arrDays);
+        ArrayAdapter<String> spinnerAdapter = new ArrayAdapter<>(getApplicationContext(), R.layout.spinner_view, arrDays);
         spinnerAdapter.setDropDownViewResource(R.layout.dropdown_view);
         spinner.setAdapter(spinnerAdapter);
 
@@ -63,7 +60,7 @@ public class mess_menu extends AppCompatActivity {
             @Override
             public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
                 String arrDays = spinner.getSelectedItem().toString();
-                Toast.makeText(getApplicationContext(),"You Selected " + arrDays, Toast.LENGTH_LONG).show();
+                Toast.makeText(getApplicationContext(), arrDays + " has been selected.", Toast.LENGTH_LONG).show();
             }
 
             @Override
