@@ -3,7 +3,7 @@
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:background="#C1D0B5"
+    android:fontFamily="@font/andika"
     android:textAlignment="center"
     android:textColor="@color/black"
-    android:textSize="20sp">
-</TextView>
+    android:textSize="20sp" />

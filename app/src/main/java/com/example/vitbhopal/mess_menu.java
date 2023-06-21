@@ -61,6 +61,7 @@ public class mess_menu extends AppCompatActivity {
             public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
                 String arrDays = spinner.getSelectedItem().toString();
                 Toast.makeText(getApplicationContext(), arrDays + " has been selected.", Toast.LENGTH_LONG).show();
+                
             }
 
             @Override
