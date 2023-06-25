@@ -3,6 +3,7 @@
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.os.Handler;
 import android.view.View;
 import android.view.animation.Animation;
 import android.view.animation.RotateAnimation;
@@ -61,7 +62,7 @@ import java.util.ArrayList;
             @Override
             public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
                 String arrDays = spinner.getSelectedItem().toString();
-                Toast.makeText(getApplicationContext(), arrDays + " has been selected.", Toast.LENGTH_LONG).show();
+                Toast.makeText(getApplicationContext(), arrDays + " has been selected.", Toast.LENGTH_SHORT).show();
 
             }
 
