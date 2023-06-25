@@ -71,7 +71,22 @@ import java.util.ArrayList;
                 if (arrDays.equals("Monday")) {
                     contentView = LayoutInflater.from(mess_menu_femail.this).inflate(R.layout.activity_boys_monday, null);
                 }
-                else if (arrDays.equals("Tuesday")) {
+                if (arrDays.equals("Tuesday")) {
+                    contentView = LayoutInflater.from(mess_menu_femail.this).inflate(R.layout.activity_boys_monday, null);
+                }
+                if (arrDays.equals("Wednesday")) {
+                    contentView = LayoutInflater.from(mess_menu_femail.this).inflate(R.layout.activity_boys_monday, null);
+                }
+                if (arrDays.equals("Thursday")) {
+                    contentView = LayoutInflater.from(mess_menu_femail.this).inflate(R.layout.activity_boys_monday, null);
+                }
+                if (arrDays.equals("Friday")) {
+                    contentView = LayoutInflater.from(mess_menu_femail.this).inflate(R.layout.activity_boys_monday, null);
+                }
+                if (arrDays.equals("Saturday")) {
+                    contentView = LayoutInflater.from(mess_menu_femail.this).inflate(R.layout.activity_boys_monday, null);
+                }
+                else if (arrDays.equals("Sunday")) {
                     contentView = LayoutInflater.from(mess_menu_femail.this).inflate(R.layout.activity_boys_monday, null);
                 }
 
