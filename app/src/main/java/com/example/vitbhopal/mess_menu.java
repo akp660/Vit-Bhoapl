@@ -36,7 +36,7 @@ public class mess_menu extends AppCompatActivity {
 
                 RotateAnimation rotateAnimation=new RotateAnimation(360,0,RotateAnimation.RELATIVE_TO_SELF,0.5F, Animation.RELATIVE_TO_SELF,0.5F);
 
-                rotateAnimation.setDuration(1000);
+                rotateAnimation.setDuration(500);
                 refresh_button.startAnimation(rotateAnimation);
 
             }
@@ -61,7 +61,7 @@ public class mess_menu extends AppCompatActivity {
             public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
                 String arrDays = spinner.getSelectedItem().toString();
                 Toast.makeText(getApplicationContext(), arrDays + " has been selected.", Toast.LENGTH_LONG).show();
-                
+
             }
 
             @Override

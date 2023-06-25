@@ -72,7 +72,7 @@
             android:layout_height="match_parent">
 
             <include
-                layout="@layout/activity_underbelly_menu"
+                layout="@layout/activity_boys_monday"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"></include>
 
@@ -85,7 +85,7 @@
         android:layout_height="50dp"
         android:layout_marginEnd="40dp"
         android:layout_marginBottom="45dp"
-        app:cardBackgroundColor="#99A98F"
+        app:cardBackgroundColor="#C1D0B5"
         app:cardCornerRadius="500dp"
         app:cardElevation="12dp"
         app:layout_constraintBottom_toBottomOf="parent"

@@ -36,7 +36,7 @@ import java.util.ArrayList;
 
                 RotateAnimation rotateAnimation=new RotateAnimation(360,0,RotateAnimation.RELATIVE_TO_SELF,0.5F, Animation.RELATIVE_TO_SELF,0.5F);
 
-                rotateAnimation.setDuration(1000);
+                rotateAnimation.setDuration(500);
                 refresh_button.startAnimation(rotateAnimation);
 
             }
