@@ -72,22 +72,22 @@ import java.util.ArrayList;
                     contentView = LayoutInflater.from(mess_menu_femail.this).inflate(R.layout.activity_boys_monday, null);
                 }
                 if (arrDays.equals("Tuesday")) {
-                    contentView = LayoutInflater.from(mess_menu_femail.this).inflate(R.layout.activity_boys_monday, null);
+                    contentView = LayoutInflater.from(mess_menu_femail.this).inflate(R.layout.activity_boys_tuesday, null);
                 }
                 if (arrDays.equals("Wednesday")) {
-                    contentView = LayoutInflater.from(mess_menu_femail.this).inflate(R.layout.activity_boys_monday, null);
+                    contentView = LayoutInflater.from(mess_menu_femail.this).inflate(R.layout.activity_boys_wednesday, null);
                 }
                 if (arrDays.equals("Thursday")) {
-                    contentView = LayoutInflater.from(mess_menu_femail.this).inflate(R.layout.activity_boys_monday, null);
+                    contentView = LayoutInflater.from(mess_menu_femail.this).inflate(R.layout.activity_boys_thusday, null);
                 }
                 if (arrDays.equals("Friday")) {
-                    contentView = LayoutInflater.from(mess_menu_femail.this).inflate(R.layout.activity_boys_monday, null);
+                    contentView = LayoutInflater.from(mess_menu_femail.this).inflate(R.layout.activity_boys_friday, null);
                 }
                 if (arrDays.equals("Saturday")) {
-                    contentView = LayoutInflater.from(mess_menu_femail.this).inflate(R.layout.activity_boys_monday, null);
+                    contentView = LayoutInflater.from(mess_menu_femail.this).inflate(R.layout.activity_boys_saturday, null);
                 }
                 else if (arrDays.equals("Sunday")) {
-                    contentView = LayoutInflater.from(mess_menu_femail.this).inflate(R.layout.activity_boys_monday, null);
+                    contentView = LayoutInflater.from(mess_menu_femail.this).inflate(R.layout.activity_boys_sunday, null);
                 }
 
                 FrameLayout contentLayout = findViewById(R.id.constentLayout);
