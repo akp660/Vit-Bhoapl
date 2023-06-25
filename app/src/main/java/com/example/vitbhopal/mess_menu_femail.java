@@ -4,11 +4,13 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.os.Handler;
+import android.view.LayoutInflater;
 import android.view.View;
 import android.view.animation.Animation;
 import android.view.animation.RotateAnimation;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.FrameLayout;
 import android.widget.ImageView;
 import android.widget.Spinner;
 import android.widget.Toast;
@@ -63,6 +65,21 @@ import java.util.ArrayList;
             public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
                 String arrDays = spinner.getSelectedItem().toString();
                 Toast.makeText(getApplicationContext(), arrDays + " has been selected.", Toast.LENGTH_SHORT).show();
+
+                View contentView = null;
+
+                if (arrDays.equals("Monday")) {
+                    contentView = LayoutInflater.from(mess_menu_femail.this).inflate(R.layout.activity_boys_monday, null);
+                }
+                else if (arrDays.equals("Tuesday")) {
+                    contentView = LayoutInflater.from(mess_menu_femail.this).inflate(R.layout.activity_boys_monday, null);
+                }
+
+                FrameLayout contentLayout = findViewById(R.id.constentLayout);
+                contentLayout.removeAllViews();
+                if (contentView != null) {
+                    contentLayout.addView(contentView);
+                }
 
             }
 

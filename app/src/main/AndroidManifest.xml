@@ -15,6 +15,9 @@
         android:theme="@style/Theme.VITBhopal"
         tools:targetApi="31">
         <activity
+            android:name=".boys_tuesday"
+            android:exported="false" />
+        <activity
             android:name=".boys_monday"
             android:exported="false" />
         <activity
