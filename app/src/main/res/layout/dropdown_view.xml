@@ -7,5 +7,4 @@
     android:textAlignment="center"
     android:textColor="@color/black"
     android:textSize="20sp">
-
 </TextView>
