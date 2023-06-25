@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".mess_menu"
-    android:background="#99A98F">
+    android:background="#A0C49D">
 
     <TextView
         android:layout_width="wrap_content"
