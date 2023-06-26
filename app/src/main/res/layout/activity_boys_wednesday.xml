@@ -67,18 +67,7 @@
                         android:layout_gravity="center"
                         android:layout_marginTop="0dp"
                         android:fontFamily="@font/andika"
-                        android:text="Plane/Carrot/Tomato Uthappam, Bread, Butter, Jam, "
-                        android:textAlignment="center"
-                        android:textColor="#000000"
-                        android:textSize="14sp" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center"
-                        android:layout_marginTop="0dp"
-                        android:fontFamily="@font/andika"
-                        android:text="Coffee, Tea, Milk, Egg."
+                        android:text="Uthappam, Sambar, Bread, Butter, Jam. "
                         android:textAlignment="center"
                         android:textColor="#000000"
                         android:textSize="14sp" />
@@ -133,18 +122,7 @@
                         android:layout_gravity="center"
                         android:layout_marginTop="0dp"
                         android:fontFamily="@font/andika"
-                        android:text="Plane Briyani, Veg Aviyal, Chapathi, Plane Rice,  "
-                        android:textAlignment="center"
-                        android:textColor="#000000"
-                        android:textSize="14sp" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center"
-                        android:layout_marginTop="0dp"
-                        android:fontFamily="@font/andika"
-                        android:text="Rajma Masala, Brinjal Kuzhambu, Fryums."
+                        android:text="Aloo Corn, Mix Dal, Palak Sabji, Curd Rice."
                         android:textAlignment="center"
                         android:textColor="#000000"
                         android:textSize="14sp" />
@@ -201,7 +179,7 @@
                         android:layout_gravity="center"
                         android:layout_marginTop="0dp"
                         android:fontFamily="@font/andika"
-                        android:text="Dhokla, Sauce,"
+                        android:text="Pani-Poori ."
                         android:textAlignment="center"
                         android:textColor="#000000"
                         android:textSize="14sp" />
@@ -269,21 +247,10 @@
                         android:layout_gravity="center"
                         android:layout_marginTop="0dp"
                         android:fontFamily="@font/andika"
-                        android:text="Chapati, Rice, Dal Tadka,"
+                        android:text="Butter Paneer / Capsicum Chicken, Rice, Roti."
                         android:textAlignment="center"
                         android:textColor="#000000"
                         android:textSize="14sp"/>
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center"
-                        android:layout_marginTop="0dp"
-                        android:fontFamily="@font/andika"
-                        android:text="Paneer Do Pyaza/ Chicken Curry."
-                        android:textAlignment="center"
-                        android:textColor="#000000"
-                        android:textSize="14sp" />
 
                 </LinearLayout>
 

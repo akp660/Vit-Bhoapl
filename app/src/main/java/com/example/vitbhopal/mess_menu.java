@@ -3,11 +3,13 @@ package com.example.vitbhopal;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.view.LayoutInflater;
 import android.view.View;
 import android.view.animation.Animation;
 import android.view.animation.RotateAnimation;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.FrameLayout;
 import android.widget.ImageView;
 import android.widget.Spinner;
 import android.widget.Toast;
@@ -60,7 +62,39 @@ public class mess_menu extends AppCompatActivity {
             @Override
             public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
                 String arrDays = spinner.getSelectedItem().toString();
-                Toast.makeText(getApplicationContext(), arrDays + " has been selected.", Toast.LENGTH_LONG).show();
+
+                View contentView = null;
+
+                if (arrDays.equals("Monday")) {
+                    contentView = LayoutInflater.from(mess_menu.this).inflate(R.layout.activity_boys_monday, null);
+                }
+                if (arrDays.equals("Tuesday")) {
+                    contentView = LayoutInflater.from(mess_menu.this).inflate(R.layout.activity_boys_tuesday, null);
+                }
+                if (arrDays.equals("Wednesday")) {
+                    contentView = LayoutInflater.from(mess_menu.this).inflate(R.layout.activity_boys_wednesday, null);
+                }
+                if (arrDays.equals("Thursday")) {
+                    contentView = LayoutInflater.from(mess_menu.this).inflate(R.layout.activity_boys_thusday, null);
+                }
+                if (arrDays.equals("Friday")) {
+                    contentView = LayoutInflater.from(mess_menu.this).inflate(R.layout.activity_boys_friday, null);
+                }
+                if (arrDays.equals("Saturday")) {
+                    contentView = LayoutInflater.from(mess_menu.this).inflate(R.layout.activity_boys_saturday, null);
+                }
+                else if (arrDays.equals("Sunday")) {
+                    contentView = LayoutInflater.from(mess_menu.this).inflate(R.layout.activity_boys_sunday, null);
+                }
+                else if (arrDays.equals("Under Belly")) {
+                    contentView = LayoutInflater.from(mess_menu.this).inflate(R.layout.activity_underbelly_menu, null);
+                }
+
+                FrameLayout contentLayout = findViewById(R.id.constentLayout);
+                contentLayout.removeAllViews();
+                if (contentView != null) {
+                    contentLayout.addView(contentView);
+                }
 
             }
 

@@ -56,7 +56,7 @@
                         android:layout_gravity="center"
                         android:layout_marginTop="0dp"
                         android:fontFamily="@font/andika"
-                        android:text="8:30 AM to 10:00AM"
+                        android:text="7:30 AM to 09:00AM"
                         android:textAlignment="center"
                         android:textColor="#000000"
                         android:textSize="12sp" />
@@ -67,7 +67,7 @@
                         android:layout_gravity="center"
                         android:layout_marginTop="0dp"
                         android:fontFamily="@font/andika"
-                        android:text="Plane/Carrot/Tomato Uthappam, Bread, Butter, Jam, "
+                        android:text="Dosa, Sambar, Green Chutney, Bread, Butter, Jam."
                         android:textAlignment="center"
                         android:textColor="#000000"
                         android:textSize="14sp" />
@@ -78,7 +78,7 @@
                         android:layout_gravity="center"
                         android:layout_marginTop="0dp"
                         android:fontFamily="@font/andika"
-                        android:text="Coffee, Tea, Milk, Egg."
+                        android:text="Coffee, Tea, Milk."
                         android:textAlignment="center"
                         android:textColor="#000000"
                         android:textSize="14sp" />
@@ -133,18 +133,7 @@
                         android:layout_gravity="center"
                         android:layout_marginTop="0dp"
                         android:fontFamily="@font/andika"
-                        android:text="Plane Briyani, Veg Aviyal, Chapathi, Plane Rice,  "
-                        android:textAlignment="center"
-                        android:textColor="#000000"
-                        android:textSize="14sp" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center"
-                        android:layout_marginTop="0dp"
-                        android:fontFamily="@font/andika"
-                        android:text="Rajma Masala, Brinjal Kuzhambu, Fryums."
+                        android:text="Veg Biryani, Raita, Masala."
                         android:textAlignment="center"
                         android:textColor="#000000"
                         android:textSize="14sp" />

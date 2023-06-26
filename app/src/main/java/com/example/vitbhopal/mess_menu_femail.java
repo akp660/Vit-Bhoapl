@@ -64,7 +64,7 @@ import java.util.ArrayList;
             @Override
             public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
                 String arrDays = spinner.getSelectedItem().toString();
-                Toast.makeText(getApplicationContext(), arrDays + " has been selected.", Toast.LENGTH_SHORT).show();
+
 
                 View contentView = null;
 
@@ -88,6 +88,9 @@ import java.util.ArrayList;
                 }
                 else if (arrDays.equals("Sunday")) {
                     contentView = LayoutInflater.from(mess_menu_femail.this).inflate(R.layout.activity_boys_sunday, null);
+                }
+                else if (arrDays.equals("Under Belly")) {
+                    contentView = LayoutInflater.from(mess_menu_femail.this).inflate(R.layout.activity_underbelly_menu, null);
                 }
 
                 FrameLayout contentLayout = findViewById(R.id.constentLayout);
