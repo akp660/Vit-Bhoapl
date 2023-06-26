@@ -133,7 +133,7 @@
                         android:layout_gravity="center"
                         android:layout_marginTop="0dp"
                         android:fontFamily="@font/andika"
-                        android:text="Veg Biryani, Raita, Masala."
+                        android:text="Veg Biryani, Raita, Roti, Dalcha, Plain Rice, Tomato Thokku, Rasam, Fryums."
                         android:textAlignment="center"
                         android:textColor="#000000"
                         android:textSize="14sp" />
@@ -179,7 +179,7 @@
                         android:layout_gravity="center"
                         android:layout_marginTop="0dp"
                         android:fontFamily="@font/andika"
-                        android:text="4:00 PM to 5:00PM"
+                        android:text="5:00 PM to 6:00PM"
                         android:textAlignment="center"
                         android:textColor="#000000"
                         android:textSize="12sp" />
@@ -190,7 +190,7 @@
                         android:layout_gravity="center"
                         android:layout_marginTop="0dp"
                         android:fontFamily="@font/andika"
-                        android:text="Dhokla, Sauce,"
+                        android:text="Cake / Patties."
                         android:textAlignment="center"
                         android:textColor="#000000"
                         android:textSize="14sp" />
@@ -247,7 +247,7 @@
                         android:layout_gravity="center"
                         android:layout_marginTop="0dp"
                         android:fontFamily="@font/andika"
-                        android:text="8:00 PM to 10:00PM"
+                        android:text="7:30 PM to 9:00PM"
                         android:textAlignment="center"
                         android:textColor="#000000"
                         android:textSize="12sp" />
@@ -258,21 +258,10 @@
                         android:layout_gravity="center"
                         android:layout_marginTop="0dp"
                         android:fontFamily="@font/andika"
-                        android:text="Chapati, Rice, Dal Tadka,"
+                        android:text="Roti, Ricde, Dal Tadka, Butter Chicken / Kadai Paneer, Rasam."
                         android:textAlignment="center"
                         android:textColor="#000000"
                         android:textSize="14sp"/>
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center"
-                        android:layout_marginTop="0dp"
-                        android:fontFamily="@font/andika"
-                        android:text="Paneer Do Pyaza/ Chicken Curry."
-                        android:textAlignment="center"
-                        android:textColor="#000000"
-                        android:textSize="14sp" />
 
                 </LinearLayout>
 

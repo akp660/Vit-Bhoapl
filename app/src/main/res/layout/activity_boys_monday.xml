@@ -56,7 +56,7 @@
                         android:layout_gravity="center"
                         android:layout_marginTop="0dp"
                         android:fontFamily="@font/andika"
-                        android:text="8:30 AM to 10:00AM"
+                        android:text="7:30 AM to 9:00AM"
                         android:textAlignment="center"
                         android:textColor="#000000"
                         android:textSize="12sp" />

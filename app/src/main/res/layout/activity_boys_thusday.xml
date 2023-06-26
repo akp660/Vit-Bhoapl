@@ -133,7 +133,7 @@
                         android:layout_gravity="center"
                         android:layout_marginTop="0dp"
                         android:fontFamily="@font/andika"
-                        android:text="Navratan Korma, Tomato Dal, Veg Pulao, ButterMilk."
+                        android:text="Navratan Korma, Tomato Dal, Veg Pulao, Plain Rice, Roti, Rasam, ButterMilk."
                         android:textAlignment="center"
                         android:textColor="#000000"
                         android:textSize="14sp" />
@@ -179,7 +179,7 @@
                         android:layout_gravity="center"
                         android:layout_marginTop="0dp"
                         android:fontFamily="@font/andika"
-                        android:text="5:00 PM to 6:30PM"
+                        android:text="5:00 PM to 6:00PM"
                         android:textAlignment="center"
                         android:textColor="#000000"
                         android:textSize="12sp" />
@@ -258,7 +258,7 @@
                         android:layout_gravity="center"
                         android:layout_marginTop="0dp"
                         android:fontFamily="@font/andika"
-                        android:text="Green Peas Masala / Egg Curry, Rice, Roti."
+                        android:text="Green Peas Masala / Egg Curry, Rice, Dal Fry, Rasam, Roti."
                         android:textAlignment="center"
                         android:textColor="#000000"
                         android:textSize="14sp"/>

@@ -56,7 +56,7 @@
                         android:layout_gravity="center"
                         android:layout_marginTop="0dp"
                         android:fontFamily="@font/andika"
-                        android:text="8:30 AM to 10:00AM"
+                        android:text="7:30 AM to 9:00AM"
                         android:textAlignment="center"
                         android:textColor="#000000"
                         android:textSize="12sp" />
@@ -67,7 +67,7 @@
                         android:layout_gravity="center"
                         android:layout_marginTop="0dp"
                         android:fontFamily="@font/andika"
-                        android:text="Plane/Carrot/Tomato Uthappam, Bread, Butter, Jam, "
+                        android:text="Masala Dosa, Sambar, Chutney, Banana / Fruit Salad, Bread, Butter, Jam."
                         android:textAlignment="center"
                         android:textColor="#000000"
                         android:textSize="14sp" />
@@ -133,18 +133,7 @@
                         android:layout_gravity="center"
                         android:layout_marginTop="0dp"
                         android:fontFamily="@font/andika"
-                        android:text="Plane Briyani, Veg Aviyal, Chapathi, Plane Rice,  "
-                        android:textAlignment="center"
-                        android:textColor="#000000"
-                        android:textSize="14sp" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center"
-                        android:layout_marginTop="0dp"
-                        android:fontFamily="@font/andika"
-                        android:text="Rajma Masala, Brinjal Kuzhambu, Fryums."
+                        android:text="Onion Cucimber Raitha, Roti, Chicken Biryani / Paneer Biryani, Masala Dal, Mint Lemon Juice."
                         android:textAlignment="center"
                         android:textColor="#000000"
                         android:textSize="14sp" />
@@ -190,7 +179,7 @@
                         android:layout_gravity="center"
                         android:layout_marginTop="0dp"
                         android:fontFamily="@font/andika"
-                        android:text="4:00 PM to 5:00PM"
+                        android:text="5:00 PM to 6:00PM"
                         android:textAlignment="center"
                         android:textColor="#000000"
                         android:textSize="12sp" />
@@ -201,7 +190,7 @@
                         android:layout_gravity="center"
                         android:layout_marginTop="0dp"
                         android:fontFamily="@font/andika"
-                        android:text="Dhokla, Sauce,"
+                        android:text="Dhokla / Pasta, Green Chutney,"
                         android:textAlignment="center"
                         android:textColor="#000000"
                         android:textSize="14sp" />
@@ -258,7 +247,7 @@
                         android:layout_gravity="center"
                         android:layout_marginTop="0dp"
                         android:fontFamily="@font/andika"
-                        android:text="8:00 PM to 10:00PM"
+                        android:text="7:30 PM to 9:00PM"
                         android:textAlignment="center"
                         android:textColor="#000000"
                         android:textSize="12sp" />
@@ -269,22 +258,10 @@
                         android:layout_gravity="center"
                         android:layout_marginTop="0dp"
                         android:fontFamily="@font/andika"
-                        android:text="Chapati, Rice, Dal Tadka,"
+                        android:text="Roti, Rice, Tinda Aloo Sabji / Aloo Patta Gobi, Dal Makhani, Raasam, Gulab Jamun."
                         android:textAlignment="center"
                         android:textColor="#000000"
                         android:textSize="14sp"/>
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center"
-                        android:layout_marginTop="0dp"
-                        android:fontFamily="@font/andika"
-                        android:text="Paneer Do Pyaza/ Chicken Curry."
-                        android:textAlignment="center"
-                        android:textColor="#000000"
-                        android:textSize="14sp" />
-
                 </LinearLayout>
 
             </androidx.cardview.widget.CardView>
