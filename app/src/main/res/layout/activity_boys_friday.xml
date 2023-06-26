@@ -9,7 +9,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="28dp">
+        tools:layout_editor_absoluteY="-34dp">
 
 
         <androidx.constraintlayout.widget.ConstraintLayout
@@ -216,13 +216,13 @@
                 android:layout_height="200dp"
                 android:layout_margin="15dp"
                 app:cardBackgroundColor="#93C18F"
+                app:cardCornerRadius="15dp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.466"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/cardView3"
-                app:layout_constraintVertical_bias="0.0"
-                app:cardCornerRadius="15dp">
+                app:layout_constraintVertical_bias="0.0">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -233,13 +233,13 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
+                        android:layout_marginTop="20dp"
                         android:fontFamily="@font/andika"
                         android:text="Dinner"
                         android:textAlignment="center"
                         android:textColor="#000000"
                         android:textSize="18sp"
-                        android:textStyle="bold"
-                        android:layout_marginTop="20dp"/>
+                        android:textStyle="bold" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -261,7 +261,7 @@
                         android:text="Roti, Ricde, Dal Tadka, Butter Chicken / Kadai Paneer, Rasam."
                         android:textAlignment="center"
                         android:textColor="#000000"
-                        android:textSize="14sp"/>
+                        android:textSize="14sp" />
 
                 </LinearLayout>
 

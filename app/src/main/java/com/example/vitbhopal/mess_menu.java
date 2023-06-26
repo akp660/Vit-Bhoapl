@@ -85,9 +85,6 @@ public class mess_menu extends AppCompatActivity {
                 else if (arrDays.equals("Sunday")) {
                     contentView = LayoutInflater.from(mess_menu.this).inflate(R.layout.activity_boys_sunday, null);
                 }
-                else if (arrDays.equals("Under Belly")) {
-                    contentView = LayoutInflater.from(mess_menu.this).inflate(R.layout.activity_under_belly, null);
-                }
 
                 FrameLayout contentLayout = findViewById(R.id.constentLayout);
                 contentLayout.removeAllViews();
