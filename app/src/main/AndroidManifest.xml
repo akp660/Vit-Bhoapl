@@ -15,7 +15,10 @@
         android:theme="@style/Theme.VITBhopal"
         tools:targetApi="31">
         <activity
-            android:name=".underbelly_menu"
+            android:name=".under_belly"
+            android:exported="false" />
+        <activity
+            android:name=".item_food"
             android:exported="false" />
         <activity
             android:name=".mess_menu_femail"

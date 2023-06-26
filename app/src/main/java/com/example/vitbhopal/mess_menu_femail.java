@@ -88,7 +88,7 @@ import java.util.ArrayList;
                     contentView = LayoutInflater.from(mess_menu_femail.this).inflate(R.layout.activity_girl_sunday, null);
                 }
                 else if (arrDays.equals("Under Belly")) {
-                    contentView = LayoutInflater.from(mess_menu_femail.this).inflate(R.layout.activity_underbelly_menu, null);
+                    contentView = LayoutInflater.from(mess_menu_femail.this).inflate(R.layout.activity_under_belly, null);
                 }
 
                 FrameLayout contentLayout = findViewById(R.id.constentLayout);

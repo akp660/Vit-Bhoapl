@@ -12,7 +12,6 @@ import android.widget.ArrayAdapter;
 import android.widget.FrameLayout;
 import android.widget.ImageView;
 import android.widget.Spinner;
-import android.widget.Toast;
 
 import java.util.ArrayList;
 
@@ -87,7 +86,7 @@ public class mess_menu extends AppCompatActivity {
                     contentView = LayoutInflater.from(mess_menu.this).inflate(R.layout.activity_boys_sunday, null);
                 }
                 else if (arrDays.equals("Under Belly")) {
-                    contentView = LayoutInflater.from(mess_menu.this).inflate(R.layout.activity_underbelly_menu, null);
+                    contentView = LayoutInflater.from(mess_menu.this).inflate(R.layout.activity_under_belly, null);
                 }
 
                 FrameLayout contentLayout = findViewById(R.id.constentLayout);
