@@ -51,7 +51,6 @@ import java.util.ArrayList;
         arrDays.add("Friday");
         arrDays.add("Saturday");
         arrDays.add("Sunday");
-        arrDays.add("Under Belly");
 
         ArrayAdapter<String> spinnerAdapter = new ArrayAdapter<>(getApplicationContext(), R.layout.spinner_view, arrDays);
         spinnerAdapter.setDropDownViewResource(R.layout.dropdown_view);
