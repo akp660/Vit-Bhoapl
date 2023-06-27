@@ -25,7 +25,7 @@
                 android:layout_height="200dp"
                 android:layout_margin="15dp"
                 android:layout_marginTop="40dp"
-                app:cardBackgroundColor="#BDDABA"
+                app:cardBackgroundColor="#F7FFE5"
                 app:cardCornerRadius="15dp"
                 app:cardElevation="10dp"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -91,7 +91,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="200dp"
                 android:layout_margin="15dp"
-                app:cardBackgroundColor="#B1CFAD"
+                app:cardBackgroundColor="#E1ECC8"
                 app:cardCornerRadius="15dp"
                 app:cardElevation="10dp"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -148,7 +148,7 @@
                 android:layout_height="200dp"
                 android:layout_margin="15dp"
                 android:layout_marginTop="372dp"
-                app:cardBackgroundColor="#A4CD9F"
+                app:cardBackgroundColor="#C4D7B2"
                 app:cardCornerRadius="15dp"
                 app:cardElevation="10dp"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -215,7 +215,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="200dp"
                 android:layout_margin="15dp"
-                app:cardBackgroundColor="#93C18F"
+                app:cardBackgroundColor="#A0C49D"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.466"
@@ -233,13 +233,13 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
+                        android:layout_marginTop="20dp"
                         android:fontFamily="@font/andika"
                         android:text="Dinner"
                         android:textAlignment="center"
                         android:textColor="#000000"
                         android:textSize="18sp"
-                        android:textStyle="bold"
-                        android:layout_marginTop="20dp"/>
+                        android:textStyle="bold" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -261,7 +261,7 @@
                         android:text="Roti, Rice, Tinda Aloo Sabji / Aloo Patta Gobi, Dal Makhani, Raasam, Gulab Jamun."
                         android:textAlignment="center"
                         android:textColor="#000000"
-                        android:textSize="14sp"/>
+                        android:textSize="14sp" />
                 </LinearLayout>
 
             </androidx.cardview.widget.CardView>
