@@ -79,7 +79,7 @@ public class dev_profile extends AppCompatActivity {
     }
 
     public void home(){
-        Intent intent = new Intent(dev_profile.this,MainActivity.class);
+        Intent intent = new Intent(dev_profile.this, MainActivity.class);
         startActivity(intent);
     }
 }
